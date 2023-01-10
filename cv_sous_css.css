@@ -1,0 +1,96 @@
+
+/* Polide et identité*/
+
+@font-face {
+    font-family: "Action Man";
+    src: url(./police/Action_Man.ttf);
+}
+
+body {
+    font-family: "Action Man";
+    
+    
+}
+  
+#name_pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+    
+}
+
+#grumpy{
+    order: 2;
+    
+}
+#identity{
+
+order: 1;
+
+}
+
+    
+ /* Liseré de Corps de page*/  
+    
+
+.edging img{
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    height: 655px;
+    width: 300px;
+    border-radius: 4px;
+   
+    
+}
+
+/* Curriculum Vitae*/
+
+#username
+{
+    text-align: center;
+    color: rgb(1, 1, 161);
+    font-size: 1.5em;
+}
+#curriculum
+{
+position: relative;
+left: 8%;
+top: 15%;
+display: flex;
+justify-content: space-evenly; 
+height: 400px; 
+width: 1000px;
+/* margin-left: 250px;
+margin-top: 90px; */
+font-size: 1.5em;
+color: rgb(4, 4, 68);
+border: rgb(4, 4, 68) 2px solid;
+border-radius: 15px;
+box-shadow: 6px 6px 0px rgb(2, 2, 124);
+
+
+
+}
+
+#experience
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#competence
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#formation
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
